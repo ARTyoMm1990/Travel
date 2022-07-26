@@ -1,1 +1,1 @@
-https://ARTyoMm1990.github.io/travel/
+https://artyomm1990.github.io/Travel/
