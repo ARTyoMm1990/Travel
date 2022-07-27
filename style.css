@@ -18,7 +18,7 @@ html {
   max-width: 1200px;
   margin: 0 auto;
 }
-/*  
+  
 #first {
   display: flex;
   flex-direction: column;
@@ -64,9 +64,9 @@ html {
   display: flex;
   flex-direction: row;
 }
-
+ 
 .login-wrapper button {
-}*/
+}
 
 .nav {
 }
@@ -113,7 +113,7 @@ html {
   flex-direction: column;
   max-width: 892px;
   max-height: 422px;
-  /* еще костыль чтобы не сползала картинка */
+  
   margin-bottom: 253px;
 }
 .main-section-title {
@@ -315,7 +315,7 @@ html {
 .active-pg-b {
   background: #f2785c;
 
- 
+  
 
   flex: none;
   order: 1;
@@ -440,17 +440,14 @@ html {
 
 
 
-
 body {
   margin: 0;
 }
 
 
-
 main {
   display: block;
 }
-
 
 
 h1 {
@@ -466,16 +463,17 @@ hr {
 }
 
 
-
 pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
 
+
 a {
   background-color: transparent;
 }
+
 
 
 abbr[title] {
@@ -484,10 +482,13 @@ abbr[title] {
   text-decoration: underline dotted; /* 2 */
 }
 
+
 b,
 strong {
   font-weight: bolder;
 }
+
+
 
 code,
 kbd,
@@ -497,9 +498,12 @@ samp {
 }
 
 
+
 small {
   font-size: 80%;
 }
+
+
 
 sub,
 sup {
@@ -517,9 +521,15 @@ sup {
   top: -0.5em;
 }
 
+
+
 img {
   border-style: none;
 }
+
+/* Forms
+   ========================================================================== */
+
 
 
 button,
@@ -533,11 +543,14 @@ textarea {
   margin: 0; /* 2 */
 }
 
+
+
 button,
 input {
   /* 1 */
   overflow: visible;
 }
+
 
 button,
 select {
@@ -545,12 +558,14 @@ select {
   text-transform: none;
 }
 
+
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
 }
+
 
 
 button::-moz-focus-inner,
@@ -575,6 +590,7 @@ fieldset {
 }
 
 
+
 legend {
   box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
@@ -585,14 +601,17 @@ legend {
 }
 
 
+
 progress {
   vertical-align: baseline;
 }
 
 
+
 textarea {
   overflow: auto;
 }
+
 
 
 [type="checkbox"],
@@ -601,16 +620,20 @@ textarea {
   padding: 0; /* 2 */
 }
 
+
+
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
 
+
 [type="search"] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
+
 
 
 [type="search"]::-webkit-search-decoration {
@@ -626,16 +649,15 @@ textarea {
 
 
 
-
 details {
   display: block;
 }
 
 
+
 summary {
   display: list-item;
 }
-
 
 
 
